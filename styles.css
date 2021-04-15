@@ -3,14 +3,17 @@ body{
     padding:0;
     margin:0;
     font-family: helvetica, sans-serif;
+    font-size: 16px;
 }
 
 .logo{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:60%;
-  max-width: 350px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:18%;
+  max-width:400px;
 }
 
 nav{
@@ -23,8 +26,7 @@ nav{
 nav a{
     text-align: center;
     color:black;
-    font-size: 1.5em;
-    padding:15px;
+    padding:10px;
     margin:10px;
     display: inline-block;
     text-decoration: none;
@@ -33,35 +35,15 @@ nav a:hover{
     text-decoration: underline;
 }
 
-/* Styles for hero or features */
-.hero{
-  background-image: url("hair-2537564_1920.jpg");
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  position: relative;
-}
-.hero h2{
-  position: absolute;
-  bottom: :10%;
-  right: 5%;
-}
-button{
-  position: absolute;
-  bottom: 8%;
-  right: 5%;
-  background: none;
-  padding: 5px;
-  border: 2px black solid;
-  color: black;
-  font-size: 1.3em;
-}
+
+
 
 main{
-maring:20px auto;
+margin:20px auto;
 display: flex;
 flex-wrap: wrap;
+padding: 4%;
+width: 96%;
 }
 
 .flexItem{
@@ -78,13 +60,19 @@ img{
     margin: 1% auto;
     border: 0;
 }
+   footer p{
+     margin:10px;
+
+   }
 @media screen and (min-width: 700px) {
         .logo{
           /* width:200px */
         }
-        img{
+        .shoes img{
           display: inline;
-          width: 30%;
+          width: 24%;
+          margin: 0;
+          padding: 0;
         }
 }
 
