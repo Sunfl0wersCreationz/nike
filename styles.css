@@ -1,5 +1,5 @@
 body{
-    background-color: #CDA2D5;
+    background-color: #F8F8FF;
     padding:0;
     margin:0;
     font-family: helvetica, sans-serif;
@@ -14,7 +14,7 @@ body{
 }
 
 nav{
-    background: grey;
+    background: #708090;
     /* height: 60px; */
     text-align: center;
     font-family: Georgia, serif;
@@ -22,7 +22,7 @@ nav{
 
 nav a{
     text-align: center;
-    color:white;
+    color:black;
     font-size: 1.5em;
     padding:15px;
     margin:10px;
